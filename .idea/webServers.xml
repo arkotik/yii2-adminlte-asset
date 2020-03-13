@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e0b2a7d3-512f-46ab-8402-65d4e9ad055e" name="tazik" url="http://192.168.1.10">
+        <fileTransfer host="192.168.1.10" port="22" rootFolder="/data_arkotik/forks/php/yii2-adminlte-asset" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
