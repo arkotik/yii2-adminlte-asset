@@ -26,7 +26,7 @@ if (Yii::$app->controller->action->id === 'login') {
     dmstr\adminlte\web\AdminLteAsset::register($this);
     dmstr\adminlte\web\FontAwesomeAsset::register($this);
 
-    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
+    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/arkotik/adminlte/dist');
 ?>
     <?php $this->beginPage() ?>
     <!DOCTYPE html>
